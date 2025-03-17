@@ -1,6 +1,6 @@
 
 let km = prompt('Quanti km devi percorrere?');
-let price = km * 0.21;
+let price = (km * 0.21);
 let anni = prompt('Quanti anni hai? (inserisci solo valore numerico)'); //parsint
 let finalPrice;
 
@@ -15,6 +15,6 @@ else{
 }
 
 //console.log( `Il prezzo è di ${finalPrice}€`); //interpolazione di stringhe con il backtick ` e il ${}
-console.log( "Il prezzo è di " + finalPrice + "€");// concatenazione di stringhe con le " " e il +//
+console.log( "Il prezzo è di " + (finalPrice).toFixed(2) + "€");// concatenazione di stringhe con le " " e il +//
 //console.log( 'Il prezzo è di ' + finalPrice + '€');// concatenazione di stringhe con l'apostrofo '' e il +
 
